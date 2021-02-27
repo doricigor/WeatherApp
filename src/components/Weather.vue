@@ -172,10 +172,10 @@
         position: relative;
         max-height: 50px;
         margin-right: 10px;
+        width: 100%;
 
         @media screen and (max-width: 550px) {
             max-width: calc(100% - 60px);
-            width: 100%;
             margin-right: 0;
         };
     }
@@ -490,6 +490,10 @@
                 font-size: 15px;
                 color: rgba(gray, .6);;
             }
+        }
+
+        @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+            padding-top: 9px;
         }
     }
 </style>
